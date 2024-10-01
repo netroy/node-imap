@@ -1,5 +1,5 @@
 {
-  "name": "imap",
+  "name": "@n8n/imap",
   "version": "0.8.19",
   "description": "An IMAP module for node.js that makes communicating with IMAP servers easy",
   "main": "./lib/Connection",
