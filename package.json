@@ -4,6 +4,7 @@
   "author": "Brian White <mscdex@mscdex.net>",
   "description": "An IMAP module for node.js that makes communicating with IMAP servers easy",
   "main": "./lib/Connection",
+  "types": "index.d.ts",
   "packageManager": "pnpm@9.6.0",
   "devDependencies": {
     "tape": "~4.6.0"
@@ -20,15 +21,5 @@
     "email",
     "reader",
     "client"
-  ],
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://github.com/mscdex/node-imap/raw/master/LICENSE"
-    }
-  ],
-  "repository": {
-    "type": "git",
-    "url": "http://github.com/mscdex/node-imap.git"
-  }
+  ]
 }
